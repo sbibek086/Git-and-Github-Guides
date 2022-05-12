@@ -22,7 +22,8 @@ so to pull it to my Graphics repo, which is localhosted in my browser, I write i
 which means PULLING from Bob's repo to not my master but GRAPHICS branch on my localmachine
 
 This above tut was from [this coding train V at 7:05](https://www.youtube.com/watch?v=lR_hYwCAaH4)
-ok, I love the result output in my broswer.
+
+Ok, I love the result output in my broswer.
 THEN,  `git commit -m`
 THEN, `git checkout master` TO switch from GRAPHICS branch to my MASTER
 THEN, `git merge graphics` SO it merges to my master in localmachine
