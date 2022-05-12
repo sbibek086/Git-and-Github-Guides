@@ -1,7 +1,7 @@
 
  # Chapter 1- Github Flow of commands
 
-![github-flowchart](https://user-images.githubusercontent.com/11883023/119141875-8756ad80-ba65-11eb-94e1-9810bf54e158.jpg)
+![About Git](https://user-images.githubusercontent.com/11883023/150847281-192341a7-7ad3-49e4-beb5-0c7934c8eebf.png)
 
 the sequence in ant-walk diagram. is to be referenced only when we are using git remotes. However, when using github, it provides GUI buttons itself of what action to do next .github-ian little needs to remember this ant-walk chain of commands.
 
