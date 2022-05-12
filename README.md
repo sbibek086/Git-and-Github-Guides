@@ -1,5 +1,5 @@
 
-#Chapter 1- Github Flow of commands
+ # Chapter 1- Github Flow of commands
 
 ![github-flowchart](https://user-images.githubusercontent.com/11883023/119141875-8756ad80-ba65-11eb-94e1-9810bf54e158.jpg)
 
@@ -35,12 +35,12 @@ THEN, `git push origin master` TO reflect it finally on my github repo also.
 All i have to do: goto Terminal in Vstudio , then in its terminal, point directory to ...xampp/htdocs so that I can clone git remote urls docs inside htdocs. So, now I can change it to see its compilation result in browser, at the same time, can change, commit etc to reflect changes in git ready docs.*
 
 ---
-#Chapter 2- Breaking down Settings Panel of each Github repo
+# Chapter 2- Breaking down Settings Panel of each Github repo
 
 ![Github Settings Panel](https://user-images.githubusercontent.com/11883023/119841559-a3ef5b80-bf25-11eb-9522-363562522f78.jpg)
 
 ---
-#Chapter 3 - Assets aka output files of Github repo
+# Chapter 3 - Assets aka output files of Github repo
 ![Assets-File-Of-Github](https://user-images.githubusercontent.com/11883023/168144371-a71e2dca-50c7-4704-ae2a-bbf2416bb7d6.jpg)
 Most of the assets in Github repo are either in .tar or .Linux or .mvcc.zip or gnu.zip.  
 - mvcc stands for Microsoft Visual C++ compiler ,and is native in typical Windows OS. Also, If I unzip mvcc.zip, there's SHA256 file inside it.  
