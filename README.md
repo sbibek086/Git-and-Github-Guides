@@ -7,17 +7,20 @@ the sequence in ant-walk diagram. is to be referenced only when we are using git
 
 So, in real scenario, in stick fig diagram, if base worker has to write in bash aka terminal aka cmd prompt, he has to write in below seq:
 `git push origin master`
+
 WHY? because he is pushing that new version created by adding README.md in his localmachine (ie MASTER repo) to origin.
 So he is PUSHING new version to ORIGIN (my github repo) from MASTER.
 
 PS: orgin and master are default names pegged to respective directories in my github repo and localmachine repo ,and can be customized by github remote add origin url
 
-In a way, in stick diagram, two stickfigs. can be misleading. the stick-figure at top need not have to be there because it can be entirely me (stick-figure at base) pushing to my github repo from my localmachine.
+In a way, in stick diagram, two stickfigures can be misleading. the stick-figure at top need not have to be there because it can be entirely me (stick-figure at base) pushing to my github repo from my localmachine.
 
 Now lets make it so that Bob sees my github repo. He has forked it to github_com/Bob/BibeksPrj and testedOKmerged some graphics feature ,and submits me PULL REQUEST (he is REQUESTING me to PULL his work on my repo)
+
 so to pull it to my Graphics repo, which is localhosted in my browser, I write in my bash
 `git pull Bob Graphics`
 which means PULLING from Bob's repo to not my master but GRAPHICS branch on my localmachine
+
 This above tut was from [this coding train V at 7:05](https://www.youtube.com/watch?v=lR_hYwCAaH4)
 ok, I love the result output in my broswer.
 THEN,  `git commit -m`
