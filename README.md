@@ -37,7 +37,7 @@ THEN, `git push origin master` TO reflect it finally on my github repo also.
 All i have to do: goto Terminal in Vstudio , then in its terminal, point directory to ...xampp/htdocs so that I can clone git remote urls docs inside htdocs. So, now I can change it to see its compilation result in browser, at the same time, can change, commit etc to reflect changes in git ready docs.*
 
 ---
-# Chapter 2- Breaking down Settings Panel of each Github repo
+# Chapter 2 - Breaking down Settings Panel of each Github repo
 
 ![Github Settings Panel](https://user-images.githubusercontent.com/11883023/119841559-a3ef5b80-bf25-11eb-9522-363562522f78.jpg)
 
@@ -49,4 +49,9 @@ Most of the assets in Github repo are either in .tar or .Linux or .mvcc.zip or g
 - Gnu.zip works in Windows OS that has GNU compiler.  
 
  `Did you know that UNIX OS are designed to do just one thing better. Windows OS revolted against such specific purpose but were proprietary locked but LINUX also revolted against such UNIX style specific purpose and were Open source..`
+ 
+ ---
+# Chapter 4 - Permission levels of different Roles in Personal repo (Organization Repo not covered) tried to be Venn-Diagram simplified 
+[Here is its official docu](https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-github-user-account/managing-user-account-settings/permission-levels-for-a-user-account-repository#further-reading). We hope to convey this information little easier
 
+![Permission-different-roles](https://user-images.githubusercontent.com/11883023/168208559-2db54797-73b2-4228-bc56-fbb8713090e3.png)
