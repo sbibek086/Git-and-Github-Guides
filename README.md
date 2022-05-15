@@ -55,3 +55,11 @@ Most of the assets in Github repo are either in .tar or .Linux or .mvcc.zip or g
 [Here is its official docu](https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-github-user-account/managing-user-account-settings/permission-levels-for-a-user-account-repository#further-reading). We hope to convey this information little easier
 
 ![Permission-different-roles](https://user-images.githubusercontent.com/11883023/168208559-2db54797-73b2-4228-bc56-fbb8713090e3.png)
+
+---
+# Chapter 5 - Developer Settings in Github
+Here, we are not talking about plain GUI settings like how your github profile theme would look -dark or white? ,or what your SSH or GPG keys of your github account should be *(I know, SSH GPG keys sound alien now, and will cover below in suitable day)*
+But for now, we are talking about settings that you can adjust lot wholesome way like with scripts, rightly called Developer Settings, for which we have to go github_com/settings/apps | developers | tokens for github apps, OAuth *stands for Open Authorization* and Personal Access tokens respectively.
+Let's start with Personal Access tokens:
+![image](https://user-images.githubusercontent.com/11883023/168462058-c3739a7f-ab5e-4e83-b38e-720e0b928b79.png)
+[This Video](https://www.youtube.com/watch?v=kHkQnuYzwoo) would help too. 
