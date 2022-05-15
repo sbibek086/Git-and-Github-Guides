@@ -63,3 +63,32 @@ But for now, we are talking about settings that you can adjust lot wholesome way
 Let's start with Personal Access tokens:
 ![image](https://user-images.githubusercontent.com/11883023/168462058-c3739a7f-ab5e-4e83-b38e-720e0b928b79.png)
 [This Video](https://www.youtube.com/watch?v=kHkQnuYzwoo) would help too. 
+
+---
+# Chapter 6 - Setting up Public template as new repo template, Speed vs Inflexibility, which to opt for?
+![image](https://user-images.githubusercontent.com/11883023/168464154-02c86efc-26a0-4c70-9e35-e6838d2b3571.png)
+
+Now, it gives me question of what exactly is difference between public template and boilerplate? 
+Currently, my understanding is: boilerplates are like templates which already has Layer 0 folders required for adding up next layer application logic folders.
+
+---
+# Chapter 7 - Working with Boilerplates - Problems faced and its solutions:
+[Boilerplate repos](https://github.com/sbibek086/boilerplate) are great way to speed up dev process - lot faster than w the sdk ways in my still novice opinion. Still is unchartered territory to me.
+Stuck with this Host key verification failed error
+
+**Problems:** I was quite lost with whether github username password that I have passed in my machine is still stored in cache an thats creating trouble as i have changed github.com password ever since between.
+`git config --global username.password <>` do not seem to be much of rescue tho. //My intention was to so that I could feed my newly github password to my machine.
+
+I was doing the way of git clone <https://> way
+but SSHing is another way I could locally transfer ,and havent tried it tho.
+
+Solutions:
+github has stopped supporting acc passwords. Now it requires token-based authentication (for example, a personal access, OAuth, or GitHub App installation token) for all authenticated Git operations. Excerpt from:https://github.blog/2020-12-15-token-authentication-requirements-for-git-operations/
+what we should do: https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token
+
+But when we visit this, 
+`we see it says to update iCloud Keychain's github pws, WHY? because brave lets u store pws for onlne accs NOT for localmachine pws like in this case pw stored aka cached in localmachine that for github- its assuming user is Mac-er & hence iCloud should be there by default but since for Asian windower like me, closest thing we can get is install 'iCloud For Windows' in Windows.`
+and after installing iCloud App, it says to setup Windows Hello Pin and hence below screenshost 
+![1645122243461](https://user-images.githubusercontent.com/11883023/168464424-50d7d58d-32b6-441d-a936-8042b294c431.jpg)
+
+https://support.apple.com/guide/icloud-windows/set-up-icloud-passwords-icw2babf5e03/icloud seems to answer this above issue.
