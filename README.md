@@ -148,3 +148,7 @@ https://support.apple.com/guide/icloud-windows/set-up-icloud-passwords-icw2babf5
 # Chapter 8- This repo itself is Template repository 
 *Have I solved Chapter 7 issue with this method. I dont know for now, and I dont want to del Chapter 7 quickly. But this is Template repo itself as you can see 'Use this Template in upper belt navigation, which doesnt come for normal repo*
 Just use it as template- the root layer file structure will be duplicated in your new github repo. 
+
+---
+#Chapter 9 - Environments, while you go to settings in repo. What are they?
+<iframe width="560" height="315" src="https://www.youtube.com/embed/nI6pRfH7VTc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
