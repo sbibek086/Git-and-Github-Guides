@@ -152,4 +152,4 @@ Just use it as template- the root layer file structure will be duplicated in you
 ---
 #Chapter 9 - Environments, while you go to settings in repo. What are they?
 
-<iframe width="1278" height="480" src="https://www.youtube.com/embed/nI6pRfH7VTc" title="Getting Started with GitHub Environments" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+https://youtu.be/nI6pRfH7VTc
