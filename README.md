@@ -92,3 +92,7 @@ and after installing iCloud App, it says to setup Windows Hello Pin and hence be
 ![1645122243461](https://user-images.githubusercontent.com/11883023/168464424-50d7d58d-32b6-441d-a936-8042b294c431.jpg)
 
 https://support.apple.com/guide/icloud-windows/set-up-icloud-passwords-icw2babf5e03/icloud seems to answer this above issue.
+---
+Chapter 8- This repo itself is Template repository 
+**Have I solved Chapter 7 issue with this method. I dont know for now, and I dont want to del Chapter 7 quickly. But this is Template repo itself as you can see 'Use this Template in upper belt navigation, which doesnt come for normal repo**
+Just use it as template- the root layer file structure will be duplicated in your new github repo. 
