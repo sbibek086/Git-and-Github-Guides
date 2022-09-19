@@ -1,3 +1,55 @@
+ # Chapter 0 - Template for README.md, you can use in your repo.
+   ``Originally, README.md was just for letting know, what's in your project. Now, people have found its new use case just for chapter compilation, like what we are doing in Chapter 1 and ahead
+
+<img src="project-logo.png" align="left" width="192px" height="192px"/>
+<img align="left" width="0" height="192px" hspace="10"/>
+
+> Template files for writing maintanable GitHub projects. Make your repo pretty!
+
+[![Under Development](https://img.shields.io/badge/under-development-orange.svg)](https://github.com/cezaraugusto/github-template-guidelines) [![Public Domain](https://img.shields.io/badge/public-domain-lightgrey.svg)](https://creativecommons.org/publicdomain/zero/1.0/) [![Travis](https://img.shields.io/travis/cezaraugusto/github-template-guidelines.svg)](http://github.com/cezaraugusto/github-template-guidelines)
+
+So you had an idea and developed the next world's industry-changing application. You decided to open-source it because you're way cool. Now you need to educate people about your project and need some docs to get started. You write that here. :alien:
+
+<br>
+<p align="center">
+<strong>Templates included:</strong>
+• <a href="/.github/CONTRIBUTING.md">CONTRIBUTING </a> • <a href="/.github/PULL_REQUEST_TEMPLATE.md">PULL REQUEST</a> • <a href="/.github/ISSUE_TEMPLATE.md">ISSUE TEMPLATE</a> • <a href="/.github/CONTRIBUTORS.md">CONTRIBUTORS</a>
+</p>
+<br>
+
+**Installing**
+
+Clone this project and name it accordingly:
+
+``git clone git@github.com:sbibek086/Git-and-Github-Guides.git MY-PROJECT-NAME && cd MY-PROJECT-NAME``
+
+**Getting Started**
+
+This project is a collection of boilerplates with `CONTRIBUTING` and `CONTRIBUTORS` documentation. It also includes a basic `ISSUE_TEMPLATE` and `PULL_REQUEST_TEMPLATE`. All templates are filled under `.github/` folder. 
+
+**Usage**
+1. After installing, remove this file `rm README.md`.
+2. Move the `README` template file located under `.github/` to the main directory `mv .github/README.md .` :cool:
+3. Follow the basic usage guidelines in each file or make it your way. *The world is yours*.
+
+> `CHANGELOG` References
+
+> This boilerplate intentionally did not provide any `CHANGELOG` file as example, since [this tool](https://github.com/skywinder/github-changelog-generator) could make it automatically, fulfilling the file's objective.
+> `CONTRIBUTORS` References
+
+* [All Contributors](https://github.com/kentcdodds/all-contributors/)
+* [All Contributors (CLI)](https://github.com/jfmengels/all-contributors-cli)
+
+This project follows the [all-contributors](https://github.com/kentcdodds/all-contributors) specification.
+Contributions of any kind welcome!
+
+## License
+[![CC0](https://i.creativecommons.org/p/zero/1.0/88x31.png)](https://creativecommons.org/publicdomain/zero/1.0/)
+
+To the extent possible under law, sbibek086 has waived all copyright and related or neighboring rights to this work.
+
+
+
 
  # Chapter 1- Github Flow of commands
 
