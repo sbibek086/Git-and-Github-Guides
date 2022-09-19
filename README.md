@@ -1,5 +1,5 @@
  # Chapter 0 - Template for README.md, you can use in your repo.
-   ``Originally, README.md was just for letting know, what's in your project. Now, people have found its new use case just for chapter compilation, like what we are doing in Chapter 1 and ahead
+``Originally, README.md was just for letting know, what's in your project. Now, people have found its new use case just for chapter compilation, like what we are doing in Chapter 1 and ahead ``
 
 <img src="project-logo.png" align="left" width="192px" height="192px"/>
 <img align="left" width="0" height="192px" hspace="10"/>
