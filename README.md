@@ -13,7 +13,7 @@ So you had an idea and developed the next world's industry-changing application.
 <br>
 <p align="center">
 <strong>Templates included:</strong>
-• <a href="/.github/CONTRIBUTING.md">CONTRIBUTING </a> • <a href="/.github/PULL_REQUEST_TEMPLATE.md">PULL REQUEST</a> • <a href="/.github/ISSUE_TEMPLATE.md">ISSUE TEMPLATE</a> • <a href="/.github/CONTRIBUTORS.md">CONTRIBUTORS</a>
+ • <a href="/github/PULL%20REQUEST.md">PULL REQUEST TEMPLATE</a> • <a href="/github/ISSUE_FOR_FEATURE_U_MORE_WANT_.md">ISSUE TEMPLATE FOR FEATURE YOU MORE WANT</a> • <a href="/github/ISSUE_FOR_BUG_U_FIND.md.md">ISSUE TEMPLATE FOR BUG YOU FIND</a>
 </p>
 <br>
 
@@ -35,20 +35,13 @@ This project is a collection of boilerplates with `CONTRIBUTING` and `CONTRIBUTO
 > `CHANGELOG` References
 
 > This boilerplate intentionally did not provide any `CHANGELOG` file as example, since [this tool](https://github.com/skywinder/github-changelog-generator) could make it automatically, fulfilling the file's objective.
-> `CONTRIBUTORS` References
 
-* [All Contributors](https://github.com/kentcdodds/all-contributors/)
-* [All Contributors (CLI)](https://github.com/jfmengels/all-contributors-cli)
-
-This project follows the [all-contributors](https://github.com/kentcdodds/all-contributors) specification.
 Contributions of any kind welcome!
 
 ## License
 [![CC0](https://i.creativecommons.org/p/zero/1.0/88x31.png)](https://creativecommons.org/publicdomain/zero/1.0/)
 
 To the extent possible under law, sbibek086 has waived all copyright and related or neighboring rights to this work.
-
-
 
 
  # Chapter 1- Github Flow of commands
