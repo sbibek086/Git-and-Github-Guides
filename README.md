@@ -146,3 +146,7 @@ Just use it as template- the root layer file structure will be duplicated in you
 #Chapter 9 - Environments, while you go to settings in repo. What are they?
 
 https://youtu.be/nI6pRfH7VTc
+---
+#Chapter 10 - Which open source license to use when?
+https://choosealicense.com/
+---
