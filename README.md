@@ -150,3 +150,5 @@ https://youtu.be/nI6pRfH7VTc
 #Chapter 10 - Which open source license to use when?
 https://choosealicense.com/
 ---
+#Chapter 11 - Automate what to do with submitted issues ith project board. 
+https://docs.github.com/en/issues/organizing-your-work-with-project-boards/managing-project-boards/creating-a-project-board
