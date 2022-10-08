@@ -76,7 +76,9 @@ THEN, `git push origin master` TO reflect it finally on my github repo also.
 *PUSH TO, PULL FROM is easy way to remember, which means git push origin master means push TO origin from master ,and similar for git pull.. *
 
 [this tutorial was based on coding train V at 7:05](https://www.youtube.com/watch?v=lR_hYwCAaH4)
-
+---
+after-story if your pull request improvisation gets accepted ie. merged, then that's patch. See below:
+![image](https://user-images.githubusercontent.com/11883023/194716215-ea0ceca3-827d-4a42-b3e6-ff90460d33d5.png)
 ---
 *I always thought I should install that seperate git CLIs. I was wrong. 
 All i have to do: goto Terminal in Vstudio , then in its terminal, point directory to ...xampp/htdocs so that I can clone git remote urls docs inside htdocs. So, now I can change it to see its compilation result in browser, at the same time, can change, commit etc to reflect changes in git ready docs.*
