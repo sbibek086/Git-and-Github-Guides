@@ -155,5 +155,9 @@ https://youtu.be/nI6pRfH7VTc
 #Chapter 10 - Which open source license to use when?
 https://choosealicense.com/
 ---
-#Chapter 11 - Automate what to do with submitted issues ith project board. 
+#Chapter 11 continues to Chapter 12,13.. - Automate what to do with submitted issues ith project board. 
 https://docs.github.com/en/issues/organizing-your-work-with-project-boards/managing-project-boards/creating-a-project-board
+---
+#Chapter A about VScode continues to B,C.., AA
+![image](https://user-images.githubusercontent.com/11883023/195427838-0e3d1c71-c7d7-4f85-af5b-d27de505d535.png)
+
