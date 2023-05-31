@@ -94,14 +94,19 @@ So, 1st: git pull (git pull should be done everyday coz every earlier day, manag
 
 If this paragraph is not understood, forget this paragraph, normal day-to-day is saved without understanding it but sometimes this know is critical. knowing is better
 git pull by default is understood as:
+
 git pull origin develop(<- remote) which means transfer from Master aka remote branch to Main aka local branch
 
 
 2nd: git checkout -b "feature/ translationToEnglish"  (here I am switching to that branch {yes, branch in localMachine} where translationToEng work have been created to add its code
 
 Then, I deploy it locally (npm run or yarn dev etc etc) to see if his work, ie in this case, translationToEng is correct? So, after checking, I found its correct. Now I want to push it
+
+
 3rd:git add --all  (theres reason why we do here git add --all and NOT just git add . There's strong reason for it, which I have written in my github blog  )
+
 4th: git commit -m "feat: added static translation"  // if everythings OK, it gives - WORKING TREE CLEAN
+
 5th: git push
 
 ////////////
