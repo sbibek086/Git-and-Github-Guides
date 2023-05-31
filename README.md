@@ -76,6 +76,7 @@ THEN, `git push origin master` TO reflect it finally on my github repo also.
 *PUSH TO, PULL FROM is easy way to remember, which means git push origin master means push TO origin from master ,and similar for git pull.. *
 
 [this tutorial was based on coding train V at 7:05](https://www.youtube.com/watch?v=lR_hYwCAaH4)
+
 ---
 
 after-story if your pull request improvisation gets accepted ie. merged, then that's patch. See below:
@@ -83,6 +84,30 @@ after-story if your pull request improvisation gets accepted ie. merged, then th
 ![image](https://user-images.githubusercontent.com/11883023/194716215-ea0ceca3-827d-4a42-b3e6-ff90460d33d5.png)
 
 ---
+/////////////now, below is: I wrote after being employed as tester in IT company -YIlab /////
+Now I am tester. ie. earlier story above was from perspective of be as Pusher aka developer, who adds certain features & submmits to Merger aka Manager (aka ArunJi who merges it to Production aka Live). But, now I am tester, who just pulls latest featureAddition from devs and tests it.
+
+ So, locally, I have whole repo downloaded (this means NOT ONLY master ie. where all testedOK featureBranch gets merged but whole Branches, are downloaded.
+Earlier, I weirdly wrongly understood ONLY that master is downloaded in myMachine)
+
+So, 1st: git pull (git pull should be done everyday coz every earlier day, manager might have merged new testedOk features from different branches, or even .env might have updated earlier day etc)
+
+If this paragraph is not understood, forget this paragraph, normal day-to-day is saved without understanding it but sometimes this know is critical. knowing is better
+git pull by default is understood as:
+git pull origin develop(<- remote) which means transfer from Master aka remote branch to Main aka local branch
+
+
+2nd: git checkout -b "feature/ translationToEnglish"  (here I am switching to that branch {yes, branch in localMachine} where translationToEng work have been created to add its code
+
+Then, I deploy it locally (npm run or yarn dev etc etc) to see if his work, ie in this case, translationToEng is correct? So, after checking, I found its correct. Now I want to push it
+3rd:git add --all  (theres reason why we do here git add --all and NOT just git add . There's strong reason for it, which I have written in my github blog  )
+4th: git commit -m "feat: added static translation"  // if everythings OK, it gives - WORKING TREE CLEAN
+5th: git push
+
+////////////
+
+---
+
 *I always thought I should install that seperate git CLIs. I was wrong. 
 All i have to do: goto Terminal in Vstudio , then in its terminal, point directory to ...xampp/htdocs so that I can clone git remote urls docs inside htdocs. So, now I can change it to see its compilation result in browser, at the same time, can change, commit etc to reflect changes in git ready docs.*
 
