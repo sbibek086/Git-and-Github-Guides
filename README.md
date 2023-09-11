@@ -118,6 +118,7 @@ Then, I deploy it locally (npm run or yarn dev etc etc) to see if his work, ie i
 ////////////
 
 ///////after being employed as tester in YI ////
+
 origin---v0.0.1 ---v0. 0.2 ---if after this coming one patch fixed makes it stable in live, then v0. 1.0
 
 AlexWorkingOnNewFeatureBranch--v0. 0.1--v0. 0.2 of this branch
