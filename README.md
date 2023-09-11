@@ -117,6 +117,27 @@ Then, I deploy it locally (npm run or yarn dev etc etc) to see if his work, ie i
 
 ////////////
 
+///////after being employed as tester in YI ////
+origin---v0.0.1 ---v0. 0.2 ---if after this coming one patch fixed makes it stable in live, then v0. 1.0
+
+AlexWorkingOnNewFeatureBranch--v0. 0.1--v0. 0.2 of this branch
+
+BobWorkingOnTranslationBranch-----
+
+etc etc.
+
+now if I pull from origin, then not only origin branch but also with AlexWorking.. Branch IE. whole tree comes to my local.
+
+now, git pull just pulls latest v of branch I am in, which known by git status
+
+but git fetch --all pulls latest v of all branches, which and also 'pull' should be preceeded by yarn or npm or.. depending on situation because packages dependencies might have been pushed to origin by Origin-er, which might be gitignored and we should in local also install and its info paths etc already in package.json and /or package-lock.json
+
+I m repeating myself I know just to reinforce memory but I can't stress to self how important it is.
+
+git stash is 'chhupake rakhna' means you neither commit n push nor u save it in ur repo publicly. it's just there for u to see, n this change won't be committed either, when u commit push this repo.
+
+////////////
+
 ---
 
 *I always thought I should install that seperate git CLIs. I was wrong. 
