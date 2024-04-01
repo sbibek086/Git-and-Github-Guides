@@ -90,7 +90,8 @@ after-story if your pull request improvisation gets accepted ie. merged, then th
 ![image](https://user-images.githubusercontent.com/11883023/194716215-ea0ceca3-827d-4a42-b3e6-ff90460d33d5.png)
 
 ---
-/////////////now, below is: I wrote after being employed as tester in IT company -YIlab /////
+_Now, below is: I wrote after being employed as tester in IT company -YIlab_
+
 Now I am tester. ie. earlier story above was from perspective of be as Pusher aka developer, who adds certain features & submmits to Merger aka Manager (aka ArunJi who merges it to Production aka Live). But, now I am tester, who just pulls latest featureAddition from devs and tests it.
 
  So, locally, I have whole repo downloaded (this means NOT ONLY master ie. where all testedOK featureBranch gets merged but whole Branches, are downloaded.
@@ -115,7 +116,6 @@ Then, I deploy it locally (npm run or yarn dev etc etc) to see if his work, ie i
 
 5th: git push
 
-////////////
 
 ///////after being employed as tester in YI ////
 
@@ -209,12 +209,15 @@ Just use it as template- the root layer file structure will be duplicated in you
 #Chapter 9 - Environments, while you go to settings in repo. What are they?
 
 https://youtu.be/nI6pRfH7VTc
+
 ---
 #Chapter 10 - Which open source license to use when?
 https://choosealicense.com/
+
 ---
 #Chapter 11 continues to Chapter 12,13.. - Automate what to do with submitted issues ith project board. 
 https://docs.github.com/en/issues/organizing-your-work-with-project-boards/managing-project-boards/creating-a-project-board
+
 ---
 #Chapter A about VScode continues to B,C.., AA
 ![image](https://user-images.githubusercontent.com/11883023/195427838-0e3d1c71-c7d7-4f85-af5b-d27de505d535.png)
