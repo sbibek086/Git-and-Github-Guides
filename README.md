@@ -54,34 +54,40 @@ To the extent possible under law, sbibek086 has waived all copyright and related
 
 ![About Git](https://user-images.githubusercontent.com/11883023/150847281-192341a7-7ad3-49e4-beb5-0c7934c8eebf.png)
 
-the sequence in ant-walk diagram. is to be referenced only when we are using git remotes. However, when using github, it provides GUI buttons itself of what action to do next .github-ian little needs to remember this ant-walk chain of commands.
+![image](https://github.com/user-attachments/assets/fb5696f3-7839-40ce-8de1-dacb29aa2113)
 
-So, in real scenario, in stick fig diagram, if base worker has to write in bash aka terminal aka cmd prompt, he has to write in below seq:
+![image](https://github.com/user-attachments/assets/ff7d7d47-79a2-4fd9-9a48-59a97aafc0bd)
+
+माथिको चित्रमा रहेको कमान्डको सिक्वेन्स केवल git remote प्रयोग गर्दा मात्र गर्ने हो। यद्यपि, जब तपाइले github प्रयोग गर्दा, githubमा GUI बटनहरू हुन्छन् जसले तपाइलाई कुन पछि कुन गर्ने भनेर देखाउँदै जान्छ। त्यसैले github प्रयोगकर्ताले कमान्डको सिक्वेन्स सम्झनु पर्दैन।
+
+त्यसैले, वास्तविक कामको अवस्थामा, स्टिक फिगर चित्रमा देखाए जस्तो, तल रहेको वर्कर A ले माथिको worker B लाइ नया संस्करण पठाउनु पर्दा,  bash अर्थात् टर्मिनल अर्थात् command promptमा यसरी लेख्नुपर्ने हुन्छ:
+`git add .`
+
+`git commit`
+
 `git push origin master`
 
-WHY? because he is pushing that new version created by adding README.md in his localmachine (ie MASTER repo) to origin.
-So he is PUSHING new version to ORIGIN (my github repo) from MASTER.
+किन? किनकि उसले आफ्नो स्थानिय आफ्नो मेसिन या नी की कम्प्युटरमा (अर्थात् MASTER repo या नी की File मा) README.md थपेर थपेर बनाएको नयाँ संस्करणलाई originमा push गरिरहेको छ।
+सरल भाषामा भन्दा, उसले MASTER बाट ORIGIN (मेरो github repo) मा नयाँ संस्करण धकेलिरहेको छ।
 
-PS: orgin and master are default names pegged to respective directories in my github repo and localmachine repo ,and can be customized by github remote add origin url
+PS: orgin मेरो-मेसिन म या नी की यो प्रसंगमा worker B र र master नाम उसको स्थानिय मेसिन रिपो या नी की worker B को लागि पूर्वनिर्धारित नामहरू हुन् र यसलाई github remote add origin url द्वारा अन्गय नाममा भने change गर्न सकिन्छ।
 
-In a way, in stick diagram, two stickfigures can be misleading. the stick-figure at top need not have to be there because it can be entirely me (stick-figure at base) pushing to my github repo from my localmachine.
+_In a way, in stick diagram, two stickfigures can be misleading. the stick-figure at top need not have to be there because it can be entirely me (stick-figure at base) pushing to my github repo from my localmachine._
 
-Now lets make it so that Bob sees my github repo. He has forked it to github_com/Bob/BibeksPrj and testedOKmerged some graphics feature ,and submits me PULL REQUEST (he is REQUESTING me to PULL his work on my repo)
+अब यसलाई यस्तो परिस्थितिमा हेरौं कि Bob ले मेरो github रेपो देख्छ। उसले यसलाई github_com/Bob/BibeksPrj मा github fork गरेको छ र graphics feature परीक्षण गरी मर्ज या नी की थप्न खोजेको छ भनेि (उसले मलाई आफ्नो थपेको काम, मेरो रेपोमा PULL गर्न अनुरोध गरिरहेको छ) उसले मलाई PULL REQUEST submit गर्छ।
 
-so to pull it to my Graphics repo, which is localhosted in my browser, I write in my bash
+त्यसैले मेरो graphics repo मा, उसले थपेको संस्करण पुल गर्न या नी की ल्याउन, मैले मेरो command prompt मा लेख्नुपर्छ:
 `git pull Bob Graphics`
-which means PULLING from Bob's repo to not my master but GRAPHICS branch on my localmachine
+माथिको कमान्डको मतलब, Bob को रिपोबाट, मेरो मास्टरमा नभई, मेरो मेसिनको GRAPHICS branchमा मैले PULL गर्दैछु।
 
-Ok, I love the result output in my broswer.
-THEN,  `git commit -m`
+उसले थपेर दिएको कामको रिजल्ट मैले मेरो google chrome browser मा कम्पाइल भएर खुल्दा रिजल्ट भनेजस्तै ok छ भने मैले -
+     `git commit -m`
 THEN, `git checkout master` TO switch from GRAPHICS branch to my MASTER
 THEN, `git merge graphics` SO it merges to my master in localmachine
-
 THEN, `git push origin master` TO reflect it finally on my github repo also.
+गर्छु
 
-*PUSH TO, PULL FROM is easy way to remember, which means git push origin master means push TO origin from master ,and similar for git pull.. *
-
-[this tutorial was based on coding train V at 7:05](https://www.youtube.com/watch?v=lR_hYwCAaH4)
+*PUSH TO, PULL FROM is easy way to remember, which means git push origin master means push TO origin from master ,and similar for git pull.. * (.)[https://youtu.be/lR_hYwCAaH4?si=JIZ2LMIt-VZwJeKr&t=425]
 
 ---
 
