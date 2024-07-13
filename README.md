@@ -51,12 +51,15 @@ To the extent possible under law, sbibek086 has waived all copyright and related
 
 
 फुल क्लास प्याकेज शुल्क - रु ५००० मात्रै
+
 समय: बेलुका ६ देखि ७ बजेसम्म
 
 ८ कक्षा भन्दा माथि देखि SLC, +2 दिएर  बसेका हरुलाई उपयुक्त
 
 अवधि: १५ वटा क्लास
+
 शनि, सोम, बुध र शुक्रबार
+
 रोजगारको प्लेसमेन्ट पनि गरिनेछ, पर्फमेन्स उत्कृष्ट गर्नसक्नु भएमा ।
 
  # Chapter 1- Github Flow of commands
@@ -76,7 +79,7 @@ To the extent possible under law, sbibek086 has waived all copyright and related
 
 `git push origin master`
 
-किन? किनकि उसले आफ्नो स्थानिय आफ्नो मेसिन या नी की कम्प्युटरमा (अर्थात् MASTER repo या नी की File मा) README.md थपेर थपेर बनाएको नयाँ संस्करणलाई originमा push गरिरहेको छ।
+किन? किनकि उसले आफ्नो लोकल मेसिन या नी की आफ्नो कम्प्युटरमा (अर्थात् MASTER repo या नी की File मा) README.md थपेर बनाएको नयाँ संस्करणलाई originमा push गरिरहेको छ।
 सरल भाषामा भन्दा, उसले MASTER बाट ORIGIN (मेरो github repo) मा नयाँ संस्करण धकेलिरहेको छ।
 
 PS: orgin मेरो-मेसिन म या नी की यो प्रसंगमा worker B र र master नाम उसको स्थानिय मेसिन रिपो या नी की worker B को लागि पूर्वनिर्धारित नामहरू हुन् र यसलाई github remote add origin url द्वारा अन्गय नाममा भने change गर्न सकिन्छ।
@@ -96,7 +99,7 @@ THEN, `git merge graphics` SO it merges to my master in localmachine
 THEN, `git push origin master` TO reflect it finally on my github repo also.
 गर्छु
 
-*PUSH TO, PULL FROM is easy way to remember, which means git push origin master means push TO origin from master ,and similar for git pull.. * (.)[https://youtu.be/lR_hYwCAaH4?si=JIZ2LMIt-VZwJeKr&t=425]
+*PUSH TO, PULL FROM is easy way to remember, which means git push origin master means push TO origin from master ,and similar for git pull.. * [.](https://youtu.be/lR_hYwCAaH4?si=JIZ2LMIt-VZwJeKr&t=425)
 
 ---
 
