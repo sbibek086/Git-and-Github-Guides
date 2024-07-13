@@ -50,6 +50,12 @@ Contributions of any kind welcome!
 To the extent possible under law, sbibek086 has waived all copyright and related or neighboring rights to this work.
 
 
+फुल क्लास प्याकेज शुल्क - रु ५००० मात्रै
+समय: बेलुका ६ देखि ७ बजेसम्म
+अवधि: १५ वटा क्लास
+शनि, सोम, बुध र शुक्रबार
+रोजगारको प्लेसमेन्ट पनि गरिनेछ, पर्फमेन्स उत्कृष्ट गर्नसक्नु भएमा ।
+
  # Chapter 1- Github Flow of commands
 
 ![About Git](https://user-images.githubusercontent.com/11883023/150847281-192341a7-7ad3-49e4-beb5-0c7934c8eebf.png)
