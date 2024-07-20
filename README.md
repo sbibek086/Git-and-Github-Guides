@@ -73,6 +73,7 @@ To the extent possible under law, sbibek086 has waived all copyright and related
 माथिको चित्रमा रहेको कमान्डको सिक्वेन्स केवल git remote प्रयोग गर्दा मात्र गर्ने हो। यद्यपि, जब तपाइले github प्रयोग गर्दा, githubमा GUI बटनहरू हुन्छन् जसले तपाइलाई कुन पछि कुन गर्ने भनेर देखाउँदै जान्छ। त्यसैले github प्रयोगकर्ताले कमान्डको सिक्वेन्स सम्झनु पर्दैन।
 
 त्यसैले, वास्तविक कामको अवस्थामा, स्टिक फिगर चित्रमा देखाए जस्तो, तल रहेको वर्कर A ले माथिको worker B लाइ नया संस्करण पठाउनु पर्दा,  bash अर्थात् टर्मिनल अर्थात् command promptमा यसरी लेख्नुपर्ने हुन्छ:
+
 `git add .`
 
 `git commit`
@@ -84,58 +85,68 @@ To the extent possible under law, sbibek086 has waived all copyright and related
 
 PS: orgin मेरो-मेसिन म या नी की यो प्रसंगमा worker B र र master नाम उसको स्थानिय मेसिन रिपो या नी की worker B को लागि पूर्वनिर्धारित नामहरू हुन् र यसलाई github remote add origin url द्वारा अन्गय नाममा भने change गर्न सकिन्छ।
 
-_In a way, in stick diagram, two stickfigures can be misleading. the stick-figure at top need not have to be there because it can be entirely me (stick-figure at base) pushing to my github repo from my localmachine._
+![image](https://github.com/user-attachments/assets/ff7d7d47-79a2-4fd9-9a48-59a97aafc0bd)
+
+_माथिको चित्रमा, सधै दुई जना चित्रित व्यक्तिहरू, रियलमा दुइजना नहुन सक्छन्। - जस्तो की म आफैं (तलको Worker A)ले मेरो स्थानिय मेसिनबाट, (माथिको Worker B)मेरो गिटहब रेपोमा push गरिरहेको हुन सक्छु।_
 
 अब यसलाई यस्तो परिस्थितिमा हेरौं कि Bob ले मेरो github रेपो देख्छ। उसले यसलाई github_com/Bob/BibeksPrj मा github fork गरेको छ र graphics feature परीक्षण गरी मर्ज या नी की थप्न खोजेको छ भनेि (उसले मलाई आफ्नो थपेको काम, मेरो रेपोमा PULL गर्न अनुरोध गरिरहेको छ) उसले मलाई PULL REQUEST submit गर्छ।
 
 त्यसैले मेरो graphics repo मा, उसले थपेको संस्करण पुल गर्न या नी की ल्याउन, मैले मेरो command prompt मा लेख्नुपर्छ:
 `git pull Bob Graphics`
+
 माथिको कमान्डको मतलब, Bob को रिपोबाट, मेरो मास्टरमा नभई, मेरो मेसिनको GRAPHICS branchमा मैले PULL गर्दैछु।
 
 उसले थपेर दिएको कामको रिजल्ट मैले मेरो google chrome browser मा कम्पाइल भएर खुल्दा रिजल्ट भनेजस्तै ok छ भने मैले -
-     `git commit -m`
-THEN, `git checkout master` TO switch from GRAPHICS branch to my MASTER
-THEN, `git merge graphics` SO it merges to my master in localmachine
-THEN, `git push origin master` TO reflect it finally on my github repo also.
-गर्छु
 
-*PUSH TO, PULL FROM is easy way to remember, which means git push origin master means push TO origin from master ,and similar for git pull.. * [.](https://youtu.be/lR_hYwCAaH4?si=JIZ2LMIt-VZwJeKr&t=425)
+`git commit -m`
+
+त्यसपछि, `git checkout master`  - यसले GRAPHICS शाखाबाट मेरो MASTER शाखामा स्विच गर्न
+
+त्यसपछि, `git merge graphics`  - यसले GRAPHICS शाखाबाट परिवर्तनहरू मेरो स्थानिय मेसिनको मास्टर शाखामा मर्ज गर्छ
+
+त्यसपछि, `git push origin master` - यसले अन्तत मेरो गिटहब रेपोमा परिवर्तनहरु प्रतिबिम्बित गर्नेछ
+
+सम्झिन सजिल'री चाहनुहुन्छ भने PUSH TO, PULL FROM भनेर सम्झिनुस् है, जसको मतलब 
+
+git push origin master means push TO origin from master
+
+git pull A B means pull from A to B [.](https://youtu.be/lR_hYwCAaH4?si=JIZ2LMIt-VZwJeKr&t=425)
+
+![image](https://github.com/user-attachments/assets/24eb0c28-ff86-42c6-a732-556fee8871af)
 
 ---
-
-after-story if your pull request improvisation gets accepted ie. merged, then that's patch. See below:
-
-![image](https://github.com/user-attachments/assets/00e68c24-5bdf-4fcf-a57d-af870169983c)
-
 ---
-_Now, below is: I wrote after being employed as tester in IT company -YIlab_
+अबको तलको लेखाइ, मैले IT कम्पनी -YIlab मा परीक्षणकर्ता या नि की 'टेस्टर'को रूपमा काम गर्न थालेपछि लेखें। त्यसैले, यो टेस्टरको दृषटिबाट तल अनुसार गर्नुपर्छ:
 
-Now I am tester. ie. earlier story above was from perspective of be as Pusher aka developer, who adds certain features & submmits to Merger aka Manager (aka ArunJi who merges it to Production aka Live). But, now I am tester, who just pulls latest featureAddition from devs and tests it.
+अब म परीक्षणकर्ता हुँ। 
 
- So, locally, I have whole repo downloaded (this means NOT ONLY master ie. where all testedOK featureBranch gets merged but whole Branches, are downloaded.
-Earlier, I weirdly wrongly understood ONLY that master is downloaded in myMachine)
+_अर्थात्, माथिको कथा पुसर अर्थात् विकासकर्ताको दृष्टिकोणबाट थियो, जसले केही सुविधाहरू थप्छ र मर्जर अर्थात् Chief Technical Officer CTOलाई production अर्थात् लाइभ सर्भरमा मर्ज गर्नका लागि बुझाउँछ।)_
 
-So, 1st: git pull (git pull should be done everyday coz every earlier day, manager might have merged new testedOk features from different branches, or even .env might have updated earlier day etc)
+तर, अब म परीक्षणकर्ता हुँ, जसले विकासकर्ता या नि की 'डेभलोपर'बाट, सबैभन्दा पछिल्लो संसोधित काम मात्र आफ्नो कम्प्युटरमा तान्छ या नी की pull** गर्छ र परीक्षण गर्छ, ता की CTOले त्यो काम मर्ज गरोस् ।
 
-If this paragraph is not understood, forget this paragraph, normal day-to-day is saved without understanding it but sometimes this know is critical. knowing is better
-git pull by default is understood as:
+_**म टेस्टरले आफ्नो कम्युटरमा, pull command गर्दा,  ( मास्टर branch या नि की tested-Ok-feature-branch-मर्ज-गरिएको branch मात्र pullभएको हुन्छ भन्ने गलत बुझाइ मेरो थियो ) तर पुरै भएभरका branchहरू पुल भएका हुन्छन्_ 
 
-git pull origin develop(<- remote) which means transfer from Master aka remote branch to Main aka local branch
+अब निम्न अनुसार गर्छु:
+
+**पहिला:** `git pull` (git pull प्रत्येक दिन गर्नु पर्छ किनभने प्रत्येक अघिल्लो दिन, CTOले विभिन्न शाखाहरूबाट नयाँ परीक्षण पास भएका 'फिचर'हरू - जस्तै अपडेटेड .env  मर्ज गरेको हुनसक्छ अघिल्लो दिन)
+
+सामान्य दैनिक काममा यो नबुझे पनि चल्छ तर कहिलेकाहीँ यो नबुझे ठुलो दुर्घटना झंझट हुनसक्छ।
+
+`git pull` लाई डिफल्ट रूपमा git pull origin develop(<- remote) which means transfer from Master aka remote branch to Main aka local branch बुझिन्छ ।
+ 
+**दोस्रो:** `git checkout -b "feature/ translationToEnglish"` (यहाँ म त्यस ब्रान्चमा स्विच गर्दैछु {हो, मेरो लोकल मेसिनमा भएको translationToEnglish शाखा, जहाँ translationToEng काम थपिएको छ 
+
+त्यसपछि, म यसलाई स्थानिय रूपमा डिप्लोय गर्छु (npm run या yarn dev आदि आदि) ताकि उसको काम - translationToEng सही छ कि छैन हेर्न। मैले जाँच गर्दा काम ठिक छ भन्ने पाएपछि म यसलाई push 
+गर्न चाहन्छु
+
+**तेस्रो:** `git add --all` (यहाँ हामी git add --all गर्छौं र मात्र git add . गर्दैनौं । यसको कारण छ, जुन मैले मेरो ब्लगमा लेखेको छु)
+
+**चौथो:** `git commit -m "feat: added static translation"`  // यदि सबै ठीक छ भने, यसले दिन्छ - WORKING TREE CLEAN
+
+**पाचौं:** `git push`
 
 
-2nd: git checkout -b "feature/ translationToEnglish"  (here I am switching to that branch {yes, branch in localMachine} where translationToEng work have been created to add its code
-
-Then, I deploy it locally (npm run or yarn dev etc etc) to see if his work, ie in this case, translationToEng is correct? So, after checking, I found its correct. Now I want to push it
-
-
-3rd:git add --all  (theres reason why we do here git add --all and NOT just git add . There's strong reason for it, which I have written in my github blog  )
-
-4th: git commit -m "feat: added static translation"  // if everythings OK, it gives - WORKING TREE CLEAN
-
-5th: git push
-
-
-///////after being employed as tester in YI ////
+‍‍‍‍‍‍===after being employed as tester in YI===
 
 origin---v0.0.1 ---v0. 0.2 ---if after this coming one patch fixed makes it stable in live, then v0. 1.0
 
@@ -155,8 +166,7 @@ I m repeating myself I know just to reinforce memory but I can't stress to self 
 
 git stash is 'chhupake rakhna' means you neither commit n push nor u save it in ur repo publicly. it's just there for u to see, n this change won't be committed either, when u commit push this repo.
 
-////////////
-
+=========
 ---
 
 *I always thought I should install that seperate git CLIs. I was wrong. 
