@@ -220,14 +220,17 @@ Above, I was doing the way of git clone <https://> way but SSH way is better
 
 Solutions:
 github has stopped supporting acc passwords. Now it requires token-based authentication (for eg, a personal access, OAuth, or GitHub App installation token) for all authenticated Git operations. Excerpt from:https://github.blog/2020-12-15-token-authentication-requirements-for-git-operations/
-what we should do: https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token
+[https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token](this) says what we should do.
 
 But when we visit this, 
-`we see it says to update iCloud Keychain's github pws, WHY? because brave lets u store pws for onlne accs NOT for localmachine pws like in this case pw stored aka cached in localmachine that for github- its assuming user is Mac-er & hence iCloud should be there by default but since for Asian windower like me, closest thing we can get is install 'iCloud For Windows' in Windows.`
-and after installing iCloud App, it says to setup Windows Hello Pin and hence below screenshost 
+`we see it says to update iCloud Keychain's github pws, WHY? 
+
+because brave lets u store pws for online accs, NOT for localmachine pws like in this case pw stored aka cached in localmachine that for github- its assuming user is Mac-er & hence iCloud should be there by default but since for Asian windower like me, closest thing we can get is install 'iCloud For Windows' in Windows.`
+
+and after installing iCloud App, it says to setup Windows Hello Pin and hence below screenshot 
 ![1645122243461](https://user-images.githubusercontent.com/11883023/168464424-50d7d58d-32b6-441d-a936-8042b294c431.jpg)
 
-https://support.apple.com/guide/icloud-windows/set-up-icloud-passwords-icw2babf5e03/icloud seems to answer this above issue.
+[https://support.apple.com/guide/icloud-windows/set-up-icloud-passwords-icw2babf5e03/icloud](This)seems to answer this above issue.
 
 ---
 # Chapter 8- This repo itself is Template repository 
