@@ -89,7 +89,7 @@ PS: orgin मेरो-मेसिन म या नी की यो प्र
 
 _माथिको चित्रमा, सधै दुई जना चित्रित व्यक्तिहरू, रियलमा दुइजना नहुन सक्छन्। - जस्तो की म आफैं (तलको Worker A)ले मेरो स्थानिय मेसिनबाट, (माथिको Worker B)मेरो गिटहब रेपोमा push गरिरहेको हुन सक्छु।_
 
-अब यसलाई यस्तो परिस्थितिमा हेरौं कि Bob ले मेरो github रेपो देख्छ। उसले यसलाई github_com/Bob/BibeksPrj मा github fork गरेको छ र graphics feature परीक्षण गरी मर्ज या नी की थप्न खोजेको छ भनेि (उसले मलाई आफ्नो थपेको काम, मेरो रेपोमा PULL गर्न अनुरोध गरिरहेको छ) उसले मलाई PULL REQUEST submit गर्छ।
+अब यसलाई यस्तो परिस्थितिमा हेरौं कि Bob ले मेरो github रेपो देख्छ। उसले यसलाई github . com/Bob/BibeksPrj मा github fork गरेको छ र graphics feature परीक्षण गरी मर्ज या नी की थप्न खोजेको छ भनेि (उसले मलाई आफ्नो थपेको काम, मेरो रेपोमा PULL गर्न अनुरोध गरिरहेको छ) उसले मलाई PULL REQUEST submit गर्छ।
 
 त्यसैले मेरो graphics repo मा, उसले थपेको संस्करण पुल गर्न या नी की ल्याउन, मैले मेरो command prompt मा लेख्नुपर्छ:
 `git pull Bob Graphics`
@@ -194,7 +194,7 @@ Most of the assets in Github repo are either in .tar or .Linux or .mvcc.zip or g
 
 ---
 # Chapter 5 - Developer Settings in Github
-Here, we are not talking about plain GUI settings like how your github profile theme would look -dark or white? ,or what your SSH or GPG keys of your github account should be *(I know, SSH GPG keys sound alien now, and will cover below in suitable day)*
+Here, we are not talking about plain GUI settings like how your github profile theme would look -dark or white? ,or what your SSH or GPG keys of your github account should be
 But for now, we are talking about settings that you can adjust lot wholesome way like with scripts, rightly called Developer Settings, for which we have to go github_com/settings/apps | developers | tokens for github apps, OAuth *stands for Open Authorization* and Personal Access tokens respectively.
 Let's start with Personal Access tokens:
 ![image](https://user-images.githubusercontent.com/11883023/168462058-c3739a7f-ab5e-4e83-b38e-720e0b928b79.png)
@@ -219,7 +219,7 @@ Stuck with this Host key verification failed error
 Above, I was doing the way of git clone <https://> way but SSH way is better
 
 Solutions:
-github has stopped supporting acc passwords. Now it requires token-based authentication (for example, a personal access, OAuth, or GitHub App installation token) for all authenticated Git operations. Excerpt from:https://github.blog/2020-12-15-token-authentication-requirements-for-git-operations/
+github has stopped supporting acc passwords. Now it requires token-based authentication (for eg, a personal access, OAuth, or GitHub App installation token) for all authenticated Git operations. Excerpt from:https://github.blog/2020-12-15-token-authentication-requirements-for-git-operations/
 what we should do: https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token
 
 But when we visit this, 
@@ -231,7 +231,7 @@ https://support.apple.com/guide/icloud-windows/set-up-icloud-passwords-icw2babf5
 
 ---
 # Chapter 8- This repo itself is Template repository 
-*Have I solved Chapter 7 issue with this method. I dont know for now, and I dont want to del Chapter 7 quickly. But this is Template repo itself as you can see 'Use this Template in upper belt navigation, which doesnt come for normal repo*
+*Have I solved Chapter 7 issue with this method. I dont know for now, and I dont want to del Chapter 7 quickly. But this is Template repo itself as you can see 'Use this Template in upper belt navigation, which doesnt come for normal repo'
 Just use it as template- the root layer file structure will be duplicated in your new github repo. 
 
 ---
@@ -244,8 +244,8 @@ https://youtu.be/nI6pRfH7VTc
 https://choosealicense.com/
 
 ---
-#Chapter 11 continues to Chapter 12,13.. - Automate what to do with submitted issues ith project board. 
-https://docs.github.com/en/issues/organizing-your-work-with-project-boards/managing-project-boards/creating-a-project-board
+#Chapter 11 -
+[what to do with submitted issues in project board](https://docs.github.com/en/issues/organizing-your-work-with-project-boards/managing-project-boards/creating-a-project-board)
 
 ---
 #Chapter A about VScode continues to B,C.., AA
