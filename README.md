@@ -186,8 +186,8 @@ Most of the assets in Github repo are either in .tar or .Linux or .mvcc.zip or g
 
  `Did you know that UNIX OS are designed to do just one thing better. Windows OS revolted against such specific purpose but were proprietary locked but LINUX also revolted against such UNIX style specific purpose and were Open source..`
  
- ---
-# Chapter 4 - Permission levels of different Roles in Personal repo (Organization Repo not covered) tried to be Venn-Diagram simplified 
+---
+# Chapter 4 - Permission levels of different Roles in Personal repo (Organization Repo not covered)
 [Here is its official docu](https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-github-user-account/managing-user-account-settings/permission-levels-for-a-user-account-repository#further-reading). We hope to convey this information little easier
 
 ![Permission-different-roles](https://user-images.githubusercontent.com/11883023/168208559-2db54797-73b2-4228-bc56-fbb8713090e3.png)
@@ -209,14 +209,14 @@ Currently, my understanding is: boilerplates are like templates which already ha
 
 ---
 # Chapter 7 - Working with Boilerplates - Problems faced and its solutions:
-[Boilerplate repos](https://github.com/sbibek086/boilerplate) are great way to speed up dev process - lot faster than w the sdk ways in my still novice opinion. Still is unchartered territory to me.
+[Boilerplate repos](https://github.com/sbibek086/boilerplate) are great way to speed up dev process - lot faster than w sdk ways but it can be difficult to learn.
+
 Stuck with this Host key verification failed error
 
 **Problems:** I was quite lost with whether github username password that I have passed in my machine is still stored in cache an thats creating trouble as i have changed github.com password ever since between.
-`git config --global username.password <>` do not seem to be much of rescue tho. //My intention was to so that I could feed my newly github password to my machine.
+`git config --global username.password <>` do not seem to be much of rescue tho. My intention was to so that I could feed my newly github password to my machine.
 
-I was doing the way of git clone <https://> way
-but SSHing is another way I could locally transfer ,and havent tried it tho.
+Above, I was doing the way of git clone <https://> way but SSH way is better
 
 Solutions:
 github has stopped supporting acc passwords. Now it requires token-based authentication (for example, a personal access, OAuth, or GitHub App installation token) for all authenticated Git operations. Excerpt from:https://github.blog/2020-12-15-token-authentication-requirements-for-git-operations/
