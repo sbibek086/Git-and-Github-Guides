@@ -220,7 +220,8 @@ Above, I was doing the way of git clone <https://> way but SSH way is better
 
 Solutions:
 github has stopped supporting acc passwords. Now it requires token-based authentication (for eg, a personal access, OAuth, or GitHub App installation token) for all authenticated Git operations. Excerpt from:https://github.blog/2020-12-15-token-authentication-requirements-for-git-operations/
-[https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token](this) says what we should do.
+
+[this](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token) says what we should do.
 
 But when we visit this, 
 `we see it says to update iCloud Keychain's github pws, WHY? 
@@ -230,11 +231,11 @@ because brave lets u store pws for online accs, NOT for localmachine pws like in
 and after installing iCloud App, it says to setup Windows Hello Pin and hence below screenshot 
 ![1645122243461](https://user-images.githubusercontent.com/11883023/168464424-50d7d58d-32b6-441d-a936-8042b294c431.jpg)
 
-[https://support.apple.com/guide/icloud-windows/set-up-icloud-passwords-icw2babf5e03/icloud](This)seems to answer this above issue.
+[this](https://support.apple.com/guide/icloud-windows/set-up-icloud-passwords-icw2babf5e03/icloud) seems to answer this above issue.
 
 ---
 # Chapter 8- This repo itself is Template repository 
-*Have I solved Chapter 7 issue with this method. I dont know for now, and I dont want to del Chapter 7 quickly. But this is Template repo itself as you can see 'Use this Template in upper belt navigation, which doesnt come for normal repo'
+*Have I solved Chapter 7 issue with this method is beyond scope of now, however lets not delete Chapter 7. But this is Template repo itself as you can see 'Use this Template in upper belt navigation, which doesnt come for normal repo'
 Just use it as template- the root layer file structure will be duplicated in your new github repo. 
 
 ---
