@@ -105,7 +105,7 @@ THEN, `git push origin master` TO reflect it finally on my github repo also.
 
 after-story if your pull request improvisation gets accepted ie. merged, then that's patch. See below:
 
-![image](https://user-images.githubusercontent.com/11883023/194716215-ea0ceca3-827d-4a42-b3e6-ff90460d33d5.png)
+![image](https://github.com/user-attachments/assets/00e68c24-5bdf-4fcf-a57d-af870169983c)
 
 ---
 _Now, below is: I wrote after being employed as tester in IT company -YIlab_
