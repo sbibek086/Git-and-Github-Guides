@@ -251,7 +251,3 @@ https://choosealicense.com/
 #Chapter 11 -
 [what to do with submitted issues in project board](https://docs.github.com/en/issues/organizing-your-work-with-project-boards/managing-project-boards/creating-a-project-board)
 
----
-#Chapter A about VScode continues to B,C.., AA
-![image](https://user-images.githubusercontent.com/11883023/195427838-0e3d1c71-c7d7-4f85-af5b-d27de505d535.png)
-
