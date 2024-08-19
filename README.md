@@ -175,7 +175,7 @@ So, after that you can change it to see its compilation result in browser,
 at the same time, can change, commit etc to reflect changes in git ready docs.*
 ```
 
-# Bootcamp Day 4- What is upstream policy and why it is used in IT workplace + Why Gitlab, NOT github is used in Nepal?
+# Bootcamp Day 4- Whats upstream policy and why its used in IT workplace + Why Gitlab, NOT github is used in Nepal?
 
 In real IT workplace, workflow looks like below:
 ![image](https://github.com/user-attachments/assets/4d8700ee-b6dc-484f-b234-99569314a70d)
@@ -203,6 +203,12 @@ lots more packages might have been added by production devs //by today
 
 so, we will get all warnings like-INCORRECT PEER DEPENDENCY
 
+---
+1st, lets understand about package dependency & then we will return to main context
+![packageDependency](https://github.com/user-attachments/assets/65b9098d-b1fa-402e-8177-9db65191657a)
+
+---
+Ok, lets return to main context:
 WHY? because packages that i had pulled yesterday, lots packages might have been added by production devs
 
 So dont worry- Just remove old package-lock.json , NOT package.json tho. Then do
