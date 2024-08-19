@@ -162,20 +162,23 @@ now, git pull just pulls latest v of branch I am in, which known by git status
 
 but git fetch --all pulls latest v of all branches, which and also 'pull' should be preceeded by yarn or npm or.. depending on situation because packages dependencies might have been pushed to origin by Origin-er, which might be gitignored and we should in local also install and its info paths etc already in package.json and /or package-lock.json
 
-I m repeating myself I know just to reinforce memory but I can't stress to self how important it is.
+Above is very very important concept so, shouldnt be forgotten.
 
 git stash is 'chhupake rakhna' means you neither commit n push nor u save it in ur repo publicly. it's just there for u to see, n this change won't be committed either, when u commit push this repo.
 
 =========
 ---
-
 *I always thought I should install that seperate git CLIs. I was wrong. 
 All i have to do: goto Terminal in Vstudio , then in its terminal, point directory to ...xampp/htdocs so that I can clone git remote urls docs inside htdocs. So, now I can change it to see its compilation result in browser, at the same time, can change, commit etc to reflect changes in git ready docs.*
 
 ---
+In real IT workplace, workflow looks like below:
+![image](https://github.com/user-attachments/assets/4d8700ee-b6dc-484f-b234-99569314a70d)
+
+---
 # Chapter 2 - Breaking down Settings Panel of each Github repo
 
-![Github Settings Panel](https://user-images.githubusercontent.com/11883023/119841559-a3ef5b80-bf25-11eb-9522-363562522f78.jpg)
+![image](https://github.com/user-attachments/assets/b91ad6e2-6fd2-4b8d-82fa-6127a9094f41)
 
 ---
 # Chapter 3 - Assets aka output files of Github repo
