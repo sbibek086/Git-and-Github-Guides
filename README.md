@@ -182,7 +182,7 @@ In real IT workplace, workflow looks like below:
 
 < Visual tour of gitlab will be done in class & its edge over github will be explained >
 
-# Bootcamp Day 5- Real Painful scenarios I faced, abd how to understand fix it?
+# Bootcamp Day 5- Real Painful scenarios I faced, and how to understand fix it?
 
 So, in production aka development day yesterday morning , I had pulled from say predevelop branch, then deployed.
 now today evening, predevelop branch has been lot + - by now,
